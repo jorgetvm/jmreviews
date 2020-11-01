@@ -1,6 +1,4 @@
-body{
-  
-}
+@import 'https://fonts.googleapis.com/css?family=Rubik+One';
 .container{
   display: flex;
   max-width: 1200px;
@@ -10,4 +8,20 @@ body{
   margin-right: auto;
   margin-left: auto;
   align-items: center;
+}
+.boton_enlace{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+}
+.boton_enlace .buton{
+    font-size: 5em;
+    width: auto;
+    padding: 10px 10px;
+    border-radius: 11px;
+    border: none;
+    background-color: #4e9ade;
+    color: white;
+    text-decoration: none;
 }
