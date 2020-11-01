@@ -1,3 +1,32 @@
 body{
     background:url('http://api.thumbr.it/whitenoise-361x370.png?background=b3e2f5ff&noise=626262&density=93&opacity=25');
 }
+.titulo{
+    font-size: 4em;
+    color:black;
+}
+.introducion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 3em;
+    line-height: 75px;
+}
+.destacado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+.destacado img{
+    border-radius: 117px;
+    max-width: 800px;
+}
+.venta{
+    text-decoration: none;
+    font-size: 3em;
+}
+.crosseling{
+    margin: 10px 0px;
+}
