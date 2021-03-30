@@ -1,0 +1,33 @@
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu{
+    background-color:#FFF5EC;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.menu .section{
+    padding:16px;
+
+    border-radius: 4px;
+
+}
+.menu .section:hover{
+   opacity: 0.7;
+   cursor:pointer;
+   background-color:#FF7A00;
+
+}
+.menu hr{
+    margin: 0px;
+    border-color:#ffffff;
+    color:#ffffff;
+    height: 80%;
+}
+.menu .separa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
